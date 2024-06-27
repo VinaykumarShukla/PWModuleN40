@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Project 1 -->
+    <form>
+        <label>
+            <strong>Username</strong>
+            <input type="text">
+        </label>
+
+        <label>
+            <strong>Password</strong>
+            <input class="password" type="password">
+        </label>
+
+        <label>
+            <strong>Confirm Password</strong>
+            <input class="confirmPassword" type="password">
+        </label>
+        <button class="button" type="submit">sign In</button>
+       
+    </form>
+     
+
+    <!-- Project 2 -->
+    
+       
+        <div id="calculator">
+            <h1>Simple Calculator</h1>
+            <input type="number" id="num1" placeholder="Enter first number">
+            <input type="text" id="operator" placeholder="Enter operator (+, -, *, /)">
+            <input type="number" id="num2" placeholder="Enter second number">
+            <button id="button2" onclick="calculate()">Calculate</button>
+            <div id="result"></div>
+        </div>
+    
+
+    <!-- Project 3 -->
+ 
+    <div class="boxShadow">  
+        <form id="inputColorName"> 
+        <h1>Color Mixer</h1>      
+        <label id="l1" for="text"><strong>Put Color1:</strong>
+        <input type="text" id="Color1">
+        </label>
+    
+        <label id="l2" for="text"> <strong>Put Color2:</strong>
+        <input type="text" id="Color2">
+        </label> 
+        <button id="mixColor">mix color</button>
+        <div id="resultantColorBox"></div>
+        <div id="resultantColorName">Output Color:</div>
+    </form>
+    </div> 
+
+    <!-- Project 4 -->
+
+    <div id="studentM">
+        <h1 id="s1">Student Marks</h1>
+        <input type="number" id="mark1" placeholder="Enter Mark 1">
+        <input type="number" id="mark2" placeholder="Enter Mark 2">
+        <input type="number" id="mark3" placeholder="Enter Mark 3">
+        <input type="number" id="mark4" placeholder="Enter Mark 4">
+        <input type="number" id="mark5" placeholder="Enter Mark 5">
+        <button id="button4" onclick="findHighestMarks()">Find Highest Marks</button>
+        <p id="result1"></p>
+    </div>
+
+
+    <!-- Project 5 --> 
+    <div class="capitaL">
+        <h1 id="H1">Name Capitalizer</h1>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button id="Button5" onclick="capitalizeName()">Capitalize</button>
+        <p id="capitalizedName"></p>
+    </div>
+
+
+    <!-- Project 6 -->
+     <div class="vowelS">
+        <h1 id="H1">Vowel Counter</h1>
+  <input type="text" id="nameInput" placeholder="Enter your name">
+  <button id="Button6" onclick="countVowels()">Count Vowels</button>
+  <p id="vowelCount"></p>
+     </div>
+
+
+
+     <!-- Project 7 -->
+
+      <!-- Cart container -->
+    <div id="cart-container">
+        <h1 id="H2">Remove Duplicates</h1>
+        <!-- Cart items will be listed here --> 
+        <input id="item-input" type="text" placeholder="Enter item name">
+        <button id="add-item-btn">Add Item to Cart</button>
+        <h1 id="H02">Cart</h1>
+        <ul id="cart-list"></ul>
+    </div>
+
+    <!-- Project 8 -->
+     <div id="star">
+    <h1 id="H8">Right-Angled Triangle</h1>
+    <input type="number" id="numRows" value="5"/>
+    <button id="btn8" onclick="generateTriangle()">Generate Triangle</button>
+    <div class="triangle" id="triangle"></div></div>
+
+    <!-- Project 9 -->
+
+    <div id="divisible">
+    <h1 id="H9">Numbers divisible by 3, not 2</h1>
+    <input type="text" id="inputDivisible" placeholder="Enter numbers separated by commas">
+    <button id="btn9">Submit</button>
+    <div id="output"></div></div>
+
+    <!-- Project 10 -->
+
+    <div id="ecommerce">
+        <h1 id="H10">E-commerce Cart</h1>
+        <button id="addItem">Add Item to Cart</button>
+        <div id="cart">
+          <h2 id="H010">Cart:</h2>
+          <ul id="cart-list1"></ul>
+        </div>
+      </div>
+
+
+      <!-- Project 11 -->
+
+      <div id="converter">
+        <h1 id="H11">Temperature Converter</h1>
+        <input id="celsius" type="number" placeholder="Enter temperature in Celsius">
+        <button id="convert">Convert to Fahrenheit</button>
+        <div id="result11"></div></div>
+
+
+     <!-- Project 12 -->
+
+        <div id="rentalCar">
+            <h1 id="H12">Rental Cost Calculator</h1>
+            <input id="days" type="number" placeholder="Enter number of days rented">
+            <label id="carTypes" for="carType">Car type:</label>
+            <select id="carType">
+            <option value="Economy">Economy</option>
+            <option value="Midsize">Midsize</option>
+            <option value="Luxury">Luxury</option>
+            </select>
+            <button id="calculate">Calculate Rental Cost</button>
+            <div id="result12"></div>
+        </div>
+
+
+        <!-- Project 13 -->
+
+        <form id="bill-form">
+            <h1 id="H13">Restaurant Bill Calculator</h1>
+            <label id="lablE1" for="dish-cost">Enter Cost of each dish:</label>
+            <input type="number" id="dish-cost" required>
+            <label id="lablE2" for="num-people">Enter Number of people sharing:</label>
+            <input type="number" id="num-people" required>
+            <button id="submit" type="submit">Calculate Bill</button>
+            <div id="bill-result"></div>
+          </form>
+                 
+
+        <!-- Project 14 -->
+
+          <div id="cartCalculator">
+            <h1 id="H14">Cart Total Calculator</h1>
+            <div id="cart-container1">
+            <h2 id="H014">Cart Items:</h2>
+            <ul id="cart-list2"></ul>
+            </div>
+            <button id="calculate-total">Calculate Total</button>
+            <div id="total-result"></div>
+          </div>
+
+
+        <!-- Project 15 -->
+
+            
+        <div id="discount-container">
+            <h1 id="H15">Discount Calculator</h1>
+            <h3 id="H015">Original Price:</h3>
+            <input type="number" id="original-price" value="">
+            <h3 id="H115">Discounted Price:</h3>
+            <input type="number" id="discounted-price" value="  ">
+            <h3 id="H215">Discount Percentage:</h3>
+            <p id="discount-percentage"></p>
+        </div>
+
+
+        <!-- Project 16 -->
+
+        <div id="random-number-container">
+            <h1 id="H16">Random Number Generator</h1>
+            <button id="refresh-button">Refresh</button>
+            <p id="random-number"></p>
+          </div>
+
+
+          <!-- Project 17 -->
+
+          <form id="transaction-form">
+            <h1 id="H17">Banking Application</h1>
+            <label id="laB1" for="customer-name">Customer Name:</label>
+            <input type="text" id="customer-name" />
+            <label id="laB2" for="amount">Amount:</label>
+            <input type="number" id="amount" />
+            <label id="laB3" for="transaction-type">Transaction Type:</label>
+            <select id="transaction-type">
+              <option value="deposit">Deposit</option>
+              <option value="withdrawal">Withdrawal</option>
+            </select>
+            <button id="submit-button">Submit</button>
+          </form>
+          <div id="account-balance-container">
+            <p id="account-balance"></p>
+          </div>
+          
+
+
+          <!-- Project 18 -->
+
+        <div id="toggle">
+          <h1 id="heading">The most affordable learning platform</h1>
+          <button id="toggle-button">Toggle Heading</button>
+        </div>
+
+
+        <!-- Project 19 -->
+
+        <form id="login-form">
+            <label id="labelLogin1" for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <label id="labelLogin2" for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button id="btn19" type="submit">Login</button>
+            <p id="validation-message"></p>
+          </form>
+
+        <!-- Project 20 -->
+
+        <div id="orderedList">
+            <h1 id="H20">What You'll Learn</h1>
+            <button id="add-item">Add Item</button>
+            <ul id="list"></ul>
+            <p id="message"></p>
+
+        </div>  
+               
+
+        <!-- Project 21 -->
+         
+        <div id="toDO-Container">
+          <h1 id="H21">To-Do App</h1>
+          <input type="text" id="todo-input" placeholder="Add a new todo item">
+          <button id="add-btn">Add</button>
+          <ul id="todo-list"></ul></div>
+
+
+      <!-- Project 23 -->
+            
+      <div id="bg-Container">
+        <h1 id="H23">Click On Button To </h1>
+        <button id="color-button">Change Background Color</button>
+        </div>
+
+
+        <!-- Project 24 -->
+
+        <div id="textColor-Container">
+          
+          <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat.
+                  </p>
+          </div>
+    
+        <!-- Project 25 -->
+
+        <div id="bg-Container">
+          <img id="image" src="Frontend.jpg" alt="Moving Image">
+          <h2 id="textForImage">
+            Click On Enter Button And Then Click On Up,Down,Left And Right Button To Move The Image
+            </h2>
+          </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
